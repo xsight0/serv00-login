@@ -1,25 +1,7 @@
-## serv00与ct8自动化批量保号，每3天自动登录一次面板，并且发送消息到Telegram
 
-## 视频教程看这里
-[免费白嫖10年VPS服务器serv00 并且一键部署自己的专属自建Vless节点 ｜小白教程｜自动化批量保号](https://youtu.be/QnlzpvDl_mo)
-
-利用github Action以及python脚本实现
 
 🙏🙏🙏点个Star！！Star！！Star！！
 
-交流群：https://t.me/yxjsjl
-
-### 将代码fork到你的仓库并运行的操作步骤
-
-#### 1. Fork 仓库
-
-1. **访问原始仓库页面**：
-    - 打开你想要 fork 的 GitHub 仓库页面。
-
-2. **Fork 仓库**：
-    - 点击页面右上角的 "Fork" 按钮，将仓库 fork 到你的 GitHub 账户下。
-
-#### 2. 设置 GitHub Secrets
 
 1. **创建 Telegram Bot**
     - 在 Telegram 中找到 `@BotFather`，创建一个新 Bot，并获取 API Token。
@@ -34,9 +16,8 @@
         - 
           ```json
           [
-            {"username": "serv00的账号", "password": "serv00的密码", "panel": "panel6.serv00.com"},
-            {"username": "ct8的账号", "password": "ct8的密码", "panel": "panel.ct8.pl"},
-            {"username": "user2", "password": "password2", "panel": "panel6.serv00.com"}
+            {"username": "serv00的账号", "password": "serv00的密码", "panel": "panel6.serv00.com"}
+
           ]
           ```
         - `TELEGRAM_BOT_TOKEN`: 你的 Telegram Bot 的 API Token。
@@ -84,5 +65,3 @@
 
 通过以上步骤，你就可以成功将代码 fork 到你的仓库下并运行它了。如果需要进一步的帮助或有其他问题，请随时告知！
 
-## 🌟🌟🌟Star！！！走起
-[![Stargazers over time](https://starchart.cc/yixiu001/serv00-login.svg?variant=adaptive)](https://starchart.cc/yixiu001/serv00-login)
